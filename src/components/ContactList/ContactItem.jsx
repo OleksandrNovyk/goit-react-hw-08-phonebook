@@ -25,7 +25,7 @@ export const ContactItem = ({ id, name, number }) => {
   return (
     <ListItem>
       <AvatarWrapper>
-        <img src={Avatar} alt={name} width="48" />
+        <img src={Avatar} alt={name} width="47" />
       </AvatarWrapper>
       <ListItemData>
         <DataWrapper>
