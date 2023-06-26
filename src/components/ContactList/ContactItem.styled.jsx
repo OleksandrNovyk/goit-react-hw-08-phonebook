@@ -21,13 +21,13 @@ export const BtnsWrapper = styled.div`
 `;
 
 export const AvatarWrapper = styled.div`
-  border-radius: 50%;
+  border-radius: 40%;
 
 
 
   & > img {
     border-radius: 50%;
-    width: 80px;
+    width: 70px;
   }
 `;
 export const ListItem = styled.li`
