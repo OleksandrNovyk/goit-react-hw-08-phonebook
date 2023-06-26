@@ -12,8 +12,7 @@ export const BtnElement = styled.button`
   border: none;
   color: white;
   background-color: #cab1c79d;
-  box-shadow: inset 2px 2px 5px #ffa, inset -5px -5px 10px #ffa,
-
+  box-shadow: inset 2px 2px 5px #ffa, inset -5px -5px 3px #ffa,
   transform: scale(1);
   cursor: pointer;
 
@@ -30,7 +29,7 @@ export const BtnElement = styled.button`
         : props.status === 'goBack'
         ? 'rgba(0, 128, 75, 0.7)'
         : 'rgba(202, 30, 30, 0.6)'};
-    box-shadow: 0px 14px 6px 4px #cab1b98c;
+    box-shadow: 0px 5px 3px 2px #ffa;
   }
   &:active {
     transform: scale(1.2);

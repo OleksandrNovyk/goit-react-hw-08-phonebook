@@ -48,7 +48,7 @@ export const FormWrapper = styled.div`
 
   @media screen and (min-width: 768px) {
     gap: 32px;
-    padding: 48px 56px;
+    padding: 18px 16px;
     margin-bottom: 20px;
     max-width: 60%;
   }

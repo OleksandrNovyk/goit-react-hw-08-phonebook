@@ -39,6 +39,7 @@ export const ImgWrapper = styled.div`
 
 export const ImgWrapperUnlogged = styled.div`
   z-index: -1000;
+  border-radius: 18px;
   @media screen and (min-width: 1280px) {
     /* transform: translateY(-5%); */
   }
