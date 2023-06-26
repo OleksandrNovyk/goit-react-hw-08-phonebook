@@ -47,13 +47,13 @@ export const ContactItem = ({ id, name, number }) => {
           onClick={() => toggleModal('delete')}
           // onClick={() => onDeleteBtnClick(id, name)}
         />
-        <Btn
+        {/* <Btn
           icon={FaUserEdit}
           type="button"
           status="edit"
           text="Edit contact"
           onClick={() => toggleModal('edit')}
-        />
+        /> */}
       </BtnsWrapper>
       {showModal && (
         <Modal
