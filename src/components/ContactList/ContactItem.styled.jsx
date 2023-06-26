@@ -23,7 +23,7 @@ export const BtnsWrapper = styled.div`
 export const AvatarWrapper = styled.div`
   border-radius: 50%;
 
-  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+
 
   & > img {
     border-radius: 50%;
@@ -41,7 +41,6 @@ export const ListItem = styled.li`
   padding: 16px;
   border-radius: 12px;
   background-color: hsla(215, 98%, 79%, 0.1);
-  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
 
   @media screen and (min-width: 768px) {
     padding: 32px;
@@ -62,7 +61,6 @@ export const ListItemData = styled.div`
   margin: 16px;
   border-radius: 12px;
   padding: 8px 12px;
-  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
 
   @media screen and (min-width: 768px) {
   }

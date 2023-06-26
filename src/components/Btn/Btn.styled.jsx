@@ -12,7 +12,6 @@ export const BtnElement = styled.button`
   border: none;
   color: white;
   background-color: #cab1c79d;
-  box-shadow: 0px 12px 8px 4px #cab1b14d;
   transform: scale(1);
   cursor: pointer;
 

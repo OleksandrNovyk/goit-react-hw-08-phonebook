@@ -4,7 +4,7 @@ import Notiflix from 'notiflix';
 import { notifySettings } from '../../utils/notifySettings';
 
 import { List } from './ContactList.styled';
-import { ContactItem } from './CotactItem';
+import { ContactItem } from './ContactItem';
 import { fetchContacts } from 'redux/contactsOperations';
 import { getContactsItems } from 'redux/contactsSelectors';
 import { getFilter } from 'redux/filterSelectors';

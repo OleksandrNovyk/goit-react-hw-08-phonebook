@@ -7,7 +7,6 @@ export const Input = styled.input`
   placeholder: grey;
   padding: 8px 12px;
   outline-color: yellow;
-  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
 
   @media screen and (min-width: 768px) {
     font-size: 14px;

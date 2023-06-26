@@ -5,8 +5,7 @@ import { Container } from './Logo.styled';
 export const PhonebookLogo = () => {
   return (
     <Container>
-      <FaFacebookF />
-      one <FaBookReader /> Book
+      Phone Book<FaBookReader />
     </Container>
   );
 };
