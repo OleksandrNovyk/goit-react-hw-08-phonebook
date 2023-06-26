@@ -47,7 +47,7 @@ const Homepage = () => {
       <Footer>
         <Copyright>
           <CopyrightText>
-            Copyright
+          Impossible to copy
             <FaRegCopyright size={16} />
             2023 <br /> Minions exist
           </CopyrightText>
