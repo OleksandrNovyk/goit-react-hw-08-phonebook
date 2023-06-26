@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { FaUserEdit, FaUserMinus } from 'react-icons/fa';
+import { FaUserMinus } from 'react-icons/fa';
 import {
   ListItem,
   ListItemData,
@@ -47,13 +47,6 @@ export const ContactItem = ({ id, name, number }) => {
           onClick={() => toggleModal('delete')}
           // onClick={() => onDeleteBtnClick(id, name)}
         />
-        {/* <Btn
-          icon={FaUserEdit}
-          type="button"
-          status="edit"
-          text="Edit contact"
-          onClick={() => toggleModal('edit')}
-        /> */}
       </BtnsWrapper>
       {showModal && (
         <Modal
