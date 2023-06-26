@@ -17,7 +17,6 @@ import {
 } from './Register.styled';
 import { NavLink } from 'components/NavLink/NavLink';
 import { Btn } from 'components/Btn/Btn';
-import Animation from '../../images/man.gif';
 import { registerUser } from 'redux/authOperations';
 
 const Register = () => {
@@ -66,7 +65,6 @@ const Register = () => {
 
       <FormWrapper>
         <ImgWrapper>
-          <img alt="movie camera" width="100%" srcSet={Animation} />
         </ImgWrapper>
         <Form onSubmit={handleSubmit}>
           <InputsWrapper>

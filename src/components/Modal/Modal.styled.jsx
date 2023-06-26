@@ -19,6 +19,5 @@ export const ModalWindow = styled.div`
   width: fit-content;
   background-color: white;
   border-radius: 12px;
-  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
   opacity: 1;
 `;

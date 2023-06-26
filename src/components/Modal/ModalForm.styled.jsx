@@ -10,8 +10,6 @@ export const AvatarWrapper = styled.div`
   border-radius: 50%;
   padding: 3px;
 
-  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
-
   & > img {
     border-radius: 50%;
     width: 150px;
@@ -46,7 +44,6 @@ export const ContentWrapper = styled.div`
   align-items: center;
   gap: 16px;
   padding: 16px;
-  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
@@ -81,7 +78,6 @@ export const InputWrapper = styled.div`
   gap: 16px;
   border-radius: 12px;
   padding: 8px 12px;
-  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
 `;
 
 export const Label = styled.label`
@@ -111,7 +107,6 @@ export const Input = styled.input`
   placeholder: grey;
   padding: 8px 12px;
   outline-color: yellow;
-  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
   margin-left: 8px;
 
   @media screen and (min-width: 768px) {

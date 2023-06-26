@@ -42,7 +42,8 @@ export const FormWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   border-radius: 24px;
-  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff,
+  border:2px;
+  box-shadow: inset 2px 2px 5px #ffa, inset -5px -5px 10px #ffa,
     10px 12px 12px 0px #cab1b14d;
 
   @media screen and (min-width: 768px) {
@@ -60,7 +61,7 @@ export const Form = styled.form`
   width: 75%;
   padding: 18px 16px;
   border-radius: 32px;
-  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+  box-shadow: inset 2px 2px 5px #ffa, inset -5px -5px 10px #ffa;
   display: flex;
   flex-wrap: wrap;
   gap: 16px;

@@ -12,6 +12,8 @@ export const BtnElement = styled.button`
   border: none;
   color: white;
   background-color: #cab1c79d;
+  box-shadow: inset 2px 2px 5px #ffa, inset -5px -5px 10px #ffa,
+
   transform: scale(1);
   cursor: pointer;
 

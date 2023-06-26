@@ -11,7 +11,6 @@ export const TextWrapper = styled.div`
 export const AvatarWrapper = styled.div`
   border-radius: 50%;
   padding: 3px;
-  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
 
   & > img {
     border-radius: 50%;
@@ -61,7 +60,6 @@ export const ContentWrapper = styled.div`
   align-items: center;
   gap: 16px;
   padding: 16px;
-  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
