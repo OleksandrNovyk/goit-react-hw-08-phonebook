@@ -38,12 +38,12 @@ export const GoBackLinkWrapper = styled.div`
 `;
 
 export const FormWrapper = styled.div`
-  width: 100%;
-  padding: 18px 16px;
+  width: 50%;
+  padding: 6px 6px;
   display: flex;
   justify-content: space-between;
   border-radius: 24px;
-  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff,
+  box-shadow: inset 2px 2px 5px #ffa, inset -5px -5px 10px #ffa,
     10px 12px 12px 0px #cab1b14d;
 
   @media screen and (min-width: 768px) {
@@ -55,10 +55,10 @@ export const FormWrapper = styled.div`
 `;
 
 export const Form = styled.form`
-  width: 75%;
+  width: 45%;
   padding: 18px 16px;
-  border-radius: 32px;
-  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+  border-radius: 24px;
+  box-shadow: inset 2px 2px 5px #ffa, inset -5px -5px 10px #ffa;
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
@@ -69,7 +69,7 @@ export const Form = styled.form`
 
   @media screen and (min-width: 768px) {
     /* width: 40%; */
-    padding: 28px 36px;
+    padding: 18px 16px;
   }
 `;
 
@@ -77,11 +77,11 @@ export const InputsWrapper = styled.div`
   margin-top: 20px;
   margin-bottom: 24px;
   gap: 8px;
-  align-self: flex-end;
+  align-self: center;
   flex-direction: column;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const AuthNotify = styled.p`
@@ -173,5 +173,5 @@ export const Label = styled.label`
 `;
 
 export const ImgWrapper = styled.div`
-  min-width: 25%;
+  min-width: 0;
 `;

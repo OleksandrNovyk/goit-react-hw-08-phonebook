@@ -11,7 +11,6 @@ import {
   GoBackLinkWrapper,
   FormWrapper,
   Form,
-  AuthNotify,
   InputsWrapper,
   ImgWrapper,
 } from './Register.styled';
@@ -107,12 +106,10 @@ const Register = () => {
           <BtnsWrapper>
             <BtnWrapper>
               <Btn type="submit" status="register" text="Create account" />
-              <AuthNotify>Newcomer? Create an account!</AuthNotify>
             </BtnWrapper>
 
             <BtnWrapper>
               <NavLink text="Log in" status="login" to="/login" />
-              <AuthNotify>Already registered? Log in!</AuthNotify>
             </BtnWrapper>
           </BtnsWrapper>
         </Form>

@@ -11,13 +11,11 @@ import {
   GoBackLinkWrapper,
   FormWrapper,
   Form,
-  AuthNotify,
   InputsWrapper,
   ImgWrapper,
 } from './Login.styled';
 import { NavLink } from 'components/NavLink/NavLink';
 import { Btn } from 'components/Btn/Btn';
-import Animation from '../../images/code.gif';
 import { loginUser } from 'redux/authOperations';
 
 const Login = () => {
@@ -60,7 +58,7 @@ const Login = () => {
 
       <FormWrapper>
         <ImgWrapper>
-          <img alt="animation" width="100%" srcSet={Animation} />
+
         </ImgWrapper>
         <Form onSubmit={handleSubmit}>
           <InputsWrapper>
@@ -92,12 +90,10 @@ const Login = () => {
           <BtnsWrapper>
             <BtnWrapper>
               <Btn type="submit" status="login" text="Log in"></Btn>
-              <AuthNotify>Already registered? Log in!</AuthNotify>
             </BtnWrapper>
 
             <BtnWrapper>
               <NavLink text="Sing up" status="register" to="/register" />
-              <AuthNotify>Newcomer? Create an account!</AuthNotify>
             </BtnWrapper>
           </BtnsWrapper>
         </Form>
