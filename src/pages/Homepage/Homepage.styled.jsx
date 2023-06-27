@@ -9,8 +9,7 @@ export const Container = styled.div`
   @media screen and (min-width: 1280px) {
     flex-direction: row;
     gap: 24px;
-    margin-top: -5%;
-    padding: 0 62px;
+    padding: 0 60px;
   }
 `;
 
@@ -31,6 +30,7 @@ export const ContainerUnlogged = styled.div`
 export const ImgWrapper = styled.div`
   z-index: -100;
   transform: translateY(-20%);
+  
 
   @media screen and (min-width: 1280px) {
     transform: translateY(-10%);

@@ -40,7 +40,8 @@ export const ListItem = styled.li`
   font-size: 16px;
   padding: 16px;
   border-radius: 12px;
-  background-color: hsla(215, 98%, 79%, 0.1);
+  border: 2px solid blanchedalmond;
+  background-color: hsla(215, 98%, 79%, 0.2);
 
   @media screen and (min-width: 768px) {
     padding: 32px;
@@ -61,6 +62,7 @@ export const ListItemData = styled.div`
   margin: 16px;
   border-radius: 12px;
   padding: 8px 12px;
+  border: 2px solid blanchedalmond;
 
   @media screen and (min-width: 768px) {
   }

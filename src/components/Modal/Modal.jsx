@@ -1,13 +1,9 @@
 import { useEffect } from 'react';
-import { createPortal } from 'react-dom';
 import propTypes from 'prop-types';
-
 import { ModalOverlay, ModalWindow } from './Modal.styled';
-
 import { ModalForm } from './ModalForm';
 import { ModalDeleteConfirmation } from './ModalDelete';
 
-const modalRoot = document.querySelector('#modal-root');
 
 export const Modal = ({ id, closeModal, status, name }) => {
   useEffect(() => {
@@ -30,7 +26,7 @@ export const Modal = ({ id, closeModal, status, name }) => {
     }
   };
 
-  return createPortal(
+  return (
     <ModalOverlay onClick={onBackdropClick}>
       <ModalWindow>
         {status === 'edit' ? (
@@ -43,8 +39,7 @@ export const Modal = ({ id, closeModal, status, name }) => {
           />
         )}
       </ModalWindow>
-    </ModalOverlay>,
-    modalRoot
+    </ModalOverlay>
   );
 };
 
